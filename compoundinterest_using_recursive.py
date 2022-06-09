@@ -6,7 +6,7 @@ def compound_interest(product,rate,n,t,power):
 	return compound_interest(product,rate,n,t,(power-1))
 #Enter the input values to calculate compound interest
 principle_amount=int(input("enter the principle amount:"))
-rate=int(input("enter the rate of interest:"))
+rate=float(input("enter the rate of interest:"))
 n=int(input("enter the terms of pay per year:"))
 t=int(input("enter the no of years:"))
 #apply formula ci=A-p , A=p*((1+(r/100*n))**(n*t))
